@@ -1,0 +1,195 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  whoami
+    4  who
+    5  pwd
+    6  ls
+    7  man ls
+    8  ls -l
+    9  ls -l -t
+   10  ls -lt
+   11  ls -tl
+   12  history 
+   13  man ls
+   14  ls
+   15  ls -a
+   16  ls
+   17  man ls
+   18  ls -a
+   19  ls
+   20  ls -l
+   21  ls -a
+   22  ls -la
+   23  pwd
+   24  ls
+   25  ls Desktop/
+   26  ls -la Desktop/
+   27  ls -la Documents/
+   28  pwd
+   29  ls
+   30  ls /home
+   31  pwd
+   32  ls
+   33  tree
+   34  pwd
+   35  ls
+   36  cd Music/
+   37  ls
+   38  ls -la
+   39  user@epk428-0:~$ cd Music/
+   40  user@epk428-0:~/Music$ ls
+   41  pwd
+   42  whoami
+   43  ls
+   44  ls -la
+   45  pwd
+   46  ls -la
+   47  cd .
+   48  pwd
+   49  ls -la
+   50  cd ..
+   51  pwd
+   52  ls -la
+   53  pwd
+   54  cd .
+   55  pwd
+   56  cd ..
+   57  ls -la
+   58  cd sc/
+   59  ls -l
+   60  cd 01
+   61  ls -la
+   62  cd ..
+   63  ls -la
+   64  cd ..
+   65  ls -la
+   66  pwd
+   67  cd ..
+   68  pwd
+   69  ls
+   70  ls -la
+   71  pwd
+   72  cd .
+   73  pwd
+   74  cd ..
+   75  pwd
+   76  ls -lt
+   77  cd root/
+   78  pwd
+   79  ls
+   80  cd root
+   81  cd roott
+   82  cdd root
+   83  pwd
+   84  ls
+   85  cd home/
+   86  cd ..
+   87  pwd
+   88  cd ./home/
+   89  pwd
+   90  ls
+   91  cd user
+   92  pwd
+   93  cd /
+   94  pwd
+   95  cd /home/user/
+   96  pwd
+   97  cd /
+   98  pwd
+   99  cd ~
+  100  pwd
+  101  cd /
+  102  cd ~/Documents/
+  103  pwd
+  104  cd /
+  105  pwd
+  106  cd
+  107  pwd
+  108  ls -lt
+  109  mkdir ABC
+  110  ls -lt
+  111  ls -lt ABC
+  112  ls -lt ABC/
+  113  ls -lta ABC/
+  114  cd ABC/
+  115  pwd
+  116  ls -lt
+  117  ls -lta
+  118  cd .
+  119  pwd
+  120  cd ..
+  121  pwd
+  122  ls -lt
+  123  rmdir ABC
+  124  ls -lt
+  125  cd /
+  126  pwd
+  127  mkdir ABC
+  128  cd
+  129  ls -lt
+  130  touch abc.txt
+  131  ls -lt
+  132  echo La-la-la-lals -lt!
+  133  echo La-la-la-la!
+  134  echo 12345
+  135  echo 12345 > text_1.txt
+  136  ls -lt
+  137  cat text_1.txt 
+  138  hexdump -C text_1.txt 
+  139  ls -lt
+  140  hexdump -C text_1.txt 
+  141  echo 6789 > text_1.txt
+  142  ls -lt
+  143  cat
+  144  history 
+  145  ls -lt
+  146  cat text_1.txt 
+  147  hexdump -C text_1.txt 
+  148  echo 12345 > text_1.txt
+  149  cat text_1.txt 
+  150  echo 6789 >> text_1.txt
+  151  ls -lt text_1.txt 
+  152  hexdump -C text_1.txt 
+  153  cat text_1.txt 
+  154  r
+  155  cat text_1.txt 
+  156  hexdump -C text_1.txt 
+  157  nano echo
+  158  man echo
+  159  echo "12345"
+  160  echo "12345\n6789"
+  161  echo -e "12345\n6789"
+  162  echo -e "12345\n\t6789"
+  163  echo -e "12345\r6789"
+  164  echo -e "12345\r6789" > text_2.txt
+  165  cat text_2.txt 
+  166  ls text_2.txt 
+  167  ls -l text_2.txt 
+  168  hexdump -C text_2.txt 
+  169  ls -lt
+  170  mkdir CDE
+  171  pwd
+  172  ls
+  173  cp text_1.txt CDE/
+  174  pwd
+  175  ls -lt CDE/
+  176  ls
+  177  pwd
+  178  mv CDE/text_1.txt CDE/text_3.txt 
+  179  ls -lt CDE/
+  180  ls -lt
+  181  mv abc.txt abc.dat
+  182  ls -lt
+  183  rm text_*.txt
+  184  ls -lt
+  185  rm a*c.d*
+  186  ls -lt
+  187  ls a*c.d*
+  188  touch abc.dat
+  189  touch abglfrjlkerlkrec.dat
+  190  touch abglfrjlkerlkrec.dot
+  191  ls a*c.d*
+  192  rm a*c.d*
+  193  ls -lt
+  194  history 
+  195  history > history_20230912_Class_02.txt
