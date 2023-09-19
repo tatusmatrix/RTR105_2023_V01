@@ -1,0 +1,29 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  echo $0
+    4  pwd
+    5  ls
+    6  pwd
+    7  ls
+    8  echo $0
+    9  sh
+   10  echo $0
+   11  whereis bash
+   12  pwd
+   13  whereis pwd
+   14  ls -l /bin/pwd
+   15  cat /bin/pwd
+   16  pwd
+   17  whereis pwd
+   18  ls -l /bin/pwd
+   19  whereis bash
+   20  whereis python
+   21  whereis pwd
+   22  echo $PATH
+   23  whereis pwd
+   24  man chmod
+   25  nano 
+   26  echo $PATH
+   27  PATH=$PATH:~/RTR105_2023_V01/
+   28  echo $PATH
+   29  history > history_20230919_Class_04a.txt 

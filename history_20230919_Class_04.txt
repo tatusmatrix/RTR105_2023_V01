@@ -54,3 +54,25 @@
    54  pwd
    55  history 
    56  history > history_20230919_Class_04.txt 
+   57  ls -lt
+   58  cat history_20230919_Class_04.txt 
+   59  ls -lt
+   60  nano git-upload
+   61  pwd
+   62  ls -lt
+   63  cat git-upload 
+   64  ls -lt
+   65  git-upload
+   66  /home/user/RTR105_2023_V01/git-upload
+   67  ls -lt
+   68  chmod 754 git-upload 
+   69  ls -lt
+   70  git-upload
+   71  ls -lt
+   72  git-upload
+   73  ls -lt
+   74  echo $PATH
+   75  PATH=$PATH:~/RTR105_2023_V01/
+   76  echo $PATH
+   77  git-upload
+   78  history > history_20230919_Class_04.txt 
