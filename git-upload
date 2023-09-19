@@ -1,0 +1,7 @@
+#!/bin/bash
+git add .
+git config --global user.name tatusmatrix
+git config --global user.email Tatjana.Solovjova@rtu.lv
+git commit -m "Class_4a"
+git push origin main
+

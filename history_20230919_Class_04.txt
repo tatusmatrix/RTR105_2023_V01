@@ -1,0 +1,56 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  whoami
+    4  who
+    5  pwd
+    6  ls
+    7  ls -lt
+    8  git --version
+    9  man git
+   10  git clone https://github.com/tatusmatrix/RTR105_2023_V01
+   11  git clone https://github.com/tatusmatrix
+   12  ls -lt
+   13  git clone https://github.com/tatusmatrix/RTR105_2023_V01
+   14  ls -lt
+   15  git clone https://github.com/tatusmatrix/RTR105_2023_V01 RTR105
+   16  ls -lt
+   17  ls -lt RTR*
+   18  ls -lt RTR105*/
+   19  ls -lt
+   20  ls -lt | grep RTR105
+   21  rmdir RTR105
+   22  man rmdir
+   23  rmdir --ignore-fail-on-non-empty RTR105
+   24  ls -lt
+   25  ls -lt | grep RTR105
+   26  rm RTR105
+   27  man rm
+   28  rm -r RTR105
+   29  man rm
+   30  rm -rf RTR105
+   31  ls -lt
+   32  pwd
+   33  cd ~/RTR105_2023_V01/
+   34  pwd
+   35  whoami
+   36  ls -l
+   37  ls -la
+   38  cd .git/
+   39  pwd
+   40  ls
+   41  ls -l
+   42  cat config 
+   43  ls -lt
+   44  ls -lta
+   45  ls -lt
+   46  cat index 
+   47  hexdump -C config 
+   48  cat config 
+   49  hexdump -C index 
+   50  cat index 
+   51  hexdump -C config 
+   52  ls -lt
+   53  cd ..
+   54  pwd
+   55  history 
+   56  history > history_20230919_Class_04.txt 
