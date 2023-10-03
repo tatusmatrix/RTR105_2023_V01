@@ -1,0 +1,22 @@
+ 0.1.  git clone https://github.com/userName/repositoryName
+ 0.2.  cd repositoryName -> mkdir Class_07 -> cd Class_07
+ 1. Izmēģināt piemērus no ORTUS -> 6. nodarbība - C - oper (no cplusplus)
+ 2. Programmas ar nelielu dialogu izveidošana (vārds, vecums->vārds, dz. gads)
+ 3.1. echo -e atkārtošana shell'ā
+ 3.2. printf funkcijas ar \n, \t, \a utt. darbības prognoze bez izmēģināšanas
+
+   #include <stdio.h>
+   int main(void)
+    {
+    printf("Ezis iet \tpa taci\rņu pa \b\bmazu \nmazu taciņu");
+    printf("Kaba\atā nes maciņu");
+    printf("Ole, \vole, ole!\n");
+     
+    return 0;
+    }
+
+   cmd:>./a.out
+   Ezis...
+
+ x.1. Brīvā laikā iepazīties ar konferences programmu - https://mttw.rtu.lv
+ x.2. Atnākt uz konferenci un paklausīties kādu interesantu stāstu
