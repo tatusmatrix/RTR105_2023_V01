@@ -101,3 +101,45 @@
   101  nano git-upload 
   102  ls -lta
   103  history > history_20231010_Class_08_09.txt 
+  104  ls -lt
+  105  ./git-upload 
+  106  cd Class_08_09/
+  107  nano variables.
+  108  nano variables.c
+  109  gcc variables.c -o variables.out
+  110  nano variables.c
+  111  gcc variables.c -o variables.out
+  112  ./a
+  113  ./variables.out 
+  114  nano variables.c
+  115  gcc variables.c -o variables.out
+  116  ./variables.out 
+  117  nano variables.c
+  118  gcc variables.c -o variables.out
+  119  ./variables.out 
+  120  nano variables.c
+  121  gcc variables.c -o variables.out
+  122  ./variables.out 
+  123  nano variables.c
+  124  gcc variables.c -o variables.out
+  125  ./variables.out 
+  126  nano variables.c
+  127  gcc variables.c -o variables.out
+  128  nano variables.c
+  129  gcc variables.c -o variables.out
+  130  ./variables.out 
+  131  hexdump variables.c
+  132  nano test.txt
+  133  hexdump test.txt
+  134  hexdump -C test.txt
+  135  ./variables.out 
+  136  nano test.txt
+  137  nano variables.c
+  138  gcc variables.c -o variables.out
+  139  ./variables.out 
+  140  hexdump test.txt
+  141  hexdump -C test.txt
+  142  man hexdump
+  143  cd ..
+  144  nano git-upload 
+  145  history > history_20231010_Class_08_09.txt 

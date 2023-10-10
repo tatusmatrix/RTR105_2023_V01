@@ -74,6 +74,8 @@ int main(void)
  printf("\n");
  printf("c=%d\t\t(piešķirtas atmiņas izmērs baitos - %ld,\n\t\t",c,sizeof(c));
  printf("atrašanas vieta atmiņā - %p)\n",&c);
+ printf("cc=%d\t\t(piešķirtas atmiņas izmērs baitos - %ld,\n\t\t",cc,sizeof(cc));
+ printf("atrašanas vieta atmiņā - %p)\n",&cc);
  printf("i=%d\t\t(piešķirtas atmiņas izmērs baitos - %ld,\n\t\t",i,sizeof(i));
  printf("atrašanas vieta atmiņā - %p)\n",&i);
  printf("f=%.2e\t(piešķirtas atmiņas izmērs baitos - %ld,\n\t\t",f,sizeof(f));
@@ -98,7 +100,24 @@ int main(void)
  printf("\n/ operācijas pētīšana:\n");
  printf("char/char = ? - ");
  printf("%d / %d = %d (rezultāta izmērs baitos - %ld)\n",cc,c,cc/c,sizeof(cc/c));
+ 
+ char a = 4, b = 5, ab;// c; NB! nedrīkst pārdefinēt c!!!
+ ab = a >= b;
+ printf("\n");
+ printf("%d >= %d\nrezultāts: %d (rezultāta izmērs baitos - %ld)",a,b,a>=b,sizeof(a>=b));
+ printf("\nrezultāts no atmiņas: %d\n",ab);
 
+
+ a = 5, b = 5;
+ ab = a >= b;
+ printf("\n");
+ printf("%d >= %d\nrezultāts: %d (rezultāta izmērs baitos - %ld)",a,b,a>=b,sizeof(a>=b));
+ printf("\nrezultāts no atmiņas: %d\n",ab);
+ printf("rezultāts no atmiņas: %d\n",(char)ab);
+
+ printf("Cienījamais lietotāj, lūdzu, ievadi vienu simbolu: ");
+ scanf(" %c", &c);
+ printf("Cienījamais lietotāj, Tu esi ievadījis %c simbolu.\n",c);
 
  return 0;
  }

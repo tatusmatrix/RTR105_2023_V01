@@ -2,5 +2,5 @@
 git add .
 git config --global user.name tatusmatrix
 git config --global user.email Tatjana.Solovjova@rtu.lv
-git commit -m "Class_08_09"
+git commit -m "Class_08_09a"
 git push origin main
