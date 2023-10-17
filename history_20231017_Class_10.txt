@@ -1,0 +1,56 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git clone https://github.com/tatusmatrix/RTR105_2023_V01
+    4  git clone https://github.com/tatusmatrix/RTR105_2023_V02
+    5  ls -lt
+    6  cd RTR105_2023_V01/
+    7  ls -lt
+    8  mkdir Class_10
+    9  cd Class_10
+   10  ls -lt
+   11  nano if.c
+   12  gcc if.c
+   13  ls -lt
+   14  nano if.c
+   15  gcc if.c
+   16  ls -lt
+   17  nano if.c
+   18  gcc if.c
+   19  ls -lt
+   20  ./a.out 
+   21  nano if.c
+   22  gcc if.c
+   23  ./a.out 
+   24  gcc if.c
+   25  ./a.out 
+   26  gcc if.c
+   27  ./a.out 
+   28  nano if.c
+   29  ./a.out 
+   30  nano if.c
+   31  cp if.c while.c
+   32  nano while.c
+   33  gcc while.c
+   34  ./a.out 
+   35  gcc while.c
+   36  ./a.out 
+   37  nano while.c
+   38  gcc while.c
+   39  ./a.out 
+   40  nano while.c
+   41  cp while.c for.c
+   42  mv for.c for_V1.c
+   43  cp for_V1.c for_V2.c 
+   44  ls -lt
+   45  nano for_V1.c 
+   46  gcc for_V1.c 
+   47  ./a.out 
+   48  nano for_V1.c 
+   49  nano for_V2.c 
+   50  gcc for_V2.c 
+   51  ./a.out 
+   52  gcc for_V1.c 
+   53  ./a.out 
+   54  ls -lt
+   55  cd ..
+   56  history > history_20231017_Class_10.txt 
