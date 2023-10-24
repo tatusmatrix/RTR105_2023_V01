@@ -1,0 +1,220 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git clone https://github.com/tatusmatrix/RTR105_2023_V01
+    4  cd RTR105_2023_V01/
+    5  ls -lt
+    6  mkdir Class_11_12
+    7  cd Class_11_12/
+    8  touch foo.h
+    9  touch foo.c
+   10  touch main.c
+   11  ls -lt
+   12  nano foo.h 
+   13  nano foo.c
+   14  nano main.c 
+   15  gcc main.c 
+   16  gcc foo.c
+   17  gcc -Wall -c foo.c
+   18  gcc -Wall -c main.c
+   19  gcc -o testprogram foo.o main.o
+   20  ls -lt
+   21  cat foo.o 
+   22  man gcc
+   23  ls -lt
+   24  ./testprogram 
+   25  nano main.c
+   26  nano foo.c
+   27  gcc -Wall -c foo.c
+   28  gcc -Wall -c main.c
+   29  nano main.c
+   30  nano foo.c
+   31  nano foo.h
+   32  nano foo.c
+   33  gcc -Wall -c foo.c
+   34  gcc -Wall -c main.c
+   35  nano main.c
+   36  nano foo.c
+   37  gcc -Wall -c foo.c
+   38  gcc -Wall -c main.c
+   39  gcc -o testprogram foo.o main.o
+   40  ./testprogram 
+   41  nano foo.c
+   42  gcc -Wall -c foo.c
+   43  gcc -Wall -c main.c
+   44  gcc -o testprogram foo.o main.o
+   45  ./testprogram 
+   46  nano foo.c
+   47  gcc -Wall -c foo.c
+   48  gcc -Wall -c main.c
+   49  ./testprogram 
+   50  nano foo.c
+   51  gcc -Wall -c foo.c
+   52  nano foo.c
+   53  gcc -Wall -c foo.c
+   54  nano foo.c
+   55  gcc -Wall -c foo.c
+   56  gcc -Wall -c main.c
+   57  gcc -o testprogram foo.o main.o
+   58  ./testprogram 
+   59  nano foo.c
+   60  gcc -Wall -c foo.c
+   61  gcc -Wall -c main.c
+   62  gcc -o testprogram foo.o main.o
+   63  ./testprogram 
+   64  nano foo.c
+   65  gcc -Wall -c foo.c
+   66  nano foo.c
+   67  gcc -Wall -c foo.c
+   68  gcc -Wall -c main.c
+   69  gcc -o testprogram foo.o main.o
+   70  ./testprogram 
+   71  nano foo.c
+   72  gcc -Wall -c foo.c
+   73  gcc -o testprogram foo.o main.o
+   74  ./testprogram 
+   75  nano foo.c
+   76  cp foo.c foo_V2.c
+   77  nano foo_V2.c
+   78  cp foo.h foo_V2.h
+   79  nano foo_V2.h
+   80  nano main.c
+   81  gcc -Wall -c foo_V2..c
+   82  gcc -Wall -c foo_V2.c
+   83  nano foo_V2.
+   84  nano foo_V2.c
+   85  gcc -Wall -c foo_V2.c
+   86  nano foo_V2.c
+   87  gcc -Wall -c foo_V2.c
+   88  gcc -Wall -c main.c
+   89  nano main.c
+   90  gcc -Wall -c main.c
+   91  gcc -o testprogram foo.o main.o
+   92  ./testprogram 
+   93  ls -lt
+   94  nano foo_V2.c
+   95  ls -lt
+   96  gcc -Wall -c foo_V2.c
+   97  gcc -Wall -c main.c
+   98  gcc -o testprogram foo_V2.o main.o
+   99  ./testprogram 
+  100  nano foo_V2.h
+  101  nano foo_V2.c
+  102  nano foo.c
+  103  gcc -Wall -c foo.c
+  104  nano main.c
+  105  gcc -Wall -c main.c
+  106  gcc -o testprogram foo.o main.o
+  107  ./testprogram 
+  108  nano foo.c
+  109  gcc -Wall -Wextra -c main.c
+  110  gcc -Wall -Wextra -c foo.c
+  111  gcc -o testprogram foo.o main.o
+  112  ./testprogram 
+  113  nano main.c
+  114  gcc -Wall -Wextra -c main.c
+  115  gcc -o testprogram foo.o main.o
+  116  ./testprogram 
+  117  nano main.c
+  118  gcc -Wall -Wextra -c main.c
+  119  gcc -o testprogram foo.o main.o
+  120  ./testprogram 
+  121  nano main.c
+  122  gcc -Wall -Wextra -c main.c
+  123  gcc -o testprogram foo.o main.o
+  124  ./testprogram 
+  125  nano main.c
+  126  gcc -Wall -Wextra -c main.c
+  127  nano main.c
+  128  gcc -Wall -Wextra -c main.c
+  129  nano main.c
+  130  gcc -Wall -Wextra -c main.c
+  131  gcc -o testprogram foo.o main.o
+  132  ./testprogram 
+  133  nano main.c
+  134  gcc -Wall -Wextra -c main.c
+  135  gcc -o testprogram foo.o main.o
+  136  ./testprogram 
+  137  nano main.c
+  138  gcc -Wall -Wextra -c main.c
+  139  gcc -o testprogram foo.o main.o
+  140  ./testprogram 
+  141  nano main.c
+  142  gcc -Wall -Wextra -c main.c
+  143  gcc -o testprogram foo.o main.o
+  144  ./testprogram 
+  145  nano main.c
+  146  ls -lt
+  147  gcc -Wall -Wextra -c main.c
+  148  ls -lt
+  149  gcc -o testprogram foo.o main.o
+  150  ./testprogram 
+  151  nano main.c
+  152  gcc -Wall -Wextra -c main.c
+  153  gcc -o testprogram foo.o main.o
+  154  ./testprogram 
+  155  nano main.c
+  156  gcc -Wall -Wextra -c main.c
+  157  nano main.c
+  158  gcc -Wall -Wextra -c main.c
+  159  nano main.c
+  160  gcc -Wall -Wextra -c main.c
+  161  gcc -o testprogram foo.o main.o
+  162  ./testprogram 
+  163  nano main.c
+  164  gcc -Wall -Wextra -c main.c
+  165  gcc -o testprogram foo.o main.o
+  166  ./testprogram 
+  167  nano main.c
+  168  gcc -Wall -Wextra -c main.c
+  169  gcc -o testprogram foo.o main.o
+  170  ./testprogram 
+  171  nano main.c
+  172  gcc -Wall -Wextra -c main.c
+  173  nano main.c
+  174  gcc -Wall -Wextra -c main.c
+  175  gcc -o testprogram foo.o main.o
+  176  ./testprogram 
+  177* 
+  178  nano foo.c
+  179  gcc -Wall -Wextra -c foo.c
+  180  gcc -Wall -Wextra -c main.c
+  181  gcc -o testprogram foo.o main.o
+  182  ./testprogram 
+  183  nano foo.c
+  184  ls -lt
+  185  gcc -Wall -Wextra -c foo_V1.c
+  186  gcc -Wall -Wextra -c main_V1.c
+  187  gcc -o testprogram foo_V1.o main_V1.o
+  188  ./testprogram 
+  189  nano foo_V2.h
+  190  nano foo_V2.c
+  191  nano main_V2.c
+  192  gcc -Wall -Wextra -c foo_V2.c
+  193  gcc -Wall -Wextra -c main_V2.c
+  194  gcc -o testprogram foo_V2.o main_V2.o
+  195  ./testprogram 
+  196  nano foo_V2.c
+  197  nano main_V2.c
+  198  gcc -Wall -Wextra -c foo_V2.c
+  199  gcc -Wall -Wextra -c main_V2.c
+  200  gcc -o testprogram foo_V2.o main_V2.o
+  201  ./testprogram 
+  202  ls -t
+  203  ls -lt
+  204  rm testprogram 
+  205  ls -lt
+  206  mv arrays.c arrays_V1.c 
+  207  cp arrays_V1.c arrays_V2.c 
+  208  nano arrays_V2.c 
+  209  gcc arrays_V2.c 
+  210  ./a.out 
+  211  nano arrays_V2.c 
+  212  gcc arrays_V2.c 
+  213  ./a.out 
+  220  ./a.out 
+  221  nano arrays_V2.c 
+  222  ls -lt
+  223  cd ..
+  224  ls -lt
+  225  nano git-upload 
+  226  history > history_20231010_Class_11_12.txt 
