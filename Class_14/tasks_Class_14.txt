@@ -8,7 +8,7 @@
    grafika nosaukuma uzdošana
    asis robežu noteikšana
    asis nosaukumu uzdošana
-   režģa pievienoša (minor grid, major grid)
+   režģa pievienoša (minor grid, main grid)
    vairākas vertikālas asis (pa labi, pa kreisi)
    punktu (marķieru) zīmēšana (atbilstoši diskrētiem mērījumu rezultātiem)
    datu paņemšana no faila

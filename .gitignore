@@ -6,3 +6,5 @@
 *.o
 # ignore ALL .out files
 *.out
+# ignore ALL .swp files
+*.swp
