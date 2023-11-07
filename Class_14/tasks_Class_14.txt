@@ -1,0 +1,16 @@
+   http://gnuplot.info/
+   https://gnuplot.sourceforge.net/demo/
+   http://gnuplot.info/docs_5.2/Gnuplot_5.2.pdf
+
+   piemēru izmēģināšana komandrindā
+   piemēru izmēģināšana ar skriptu palīdzību
+
+   grafika nosaukuma uzdošana
+   asis robežu noteikšana
+   asis nosaukumu uzdošana
+   režģa pievienoša (minor grid, major grid)
+   vairākas vertikālas asis (pa labi, pa kreisi)
+   punktu (marķieru) zīmēšana (atbilstoši diskrētiem mērījumu rezultātiem)
+   datu paņemšana no faila
+   grafiku leģenda
+   grafika saglabāšana failā (png)
